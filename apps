@@ -1,0 +1,31 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=Terminal)
+  [Dimensions]	{1202 711}
+  [Position]	(UPPERLEFT)	{119 13}
+  [Close]	{yes}
+[end]
+[app] (name=IRC)
+  [Workspace]	{2}
+  [Dimensions]	{1202 711}
+  [Position]	(UPPERLEFT)	{119 13}
+  [Close]	{yes}
+[end]
+[app] (name=chromium) (class=Chromium) (role=browser)
+  [Workspace]	{1}
+  [Dimensions]	{1244 699}
+  [Position]	(UPPERLEFT)	{106 14}
+  [Close]	{yes}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-1226-1042133508-1348153441)
+  [Workspace]	{0}
+  [Dimensions]	{1170 651}
+  [Position]	(UPPERLEFT)	{66 21}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-1413-1137276107-1348153469)
+  [Dimensions]	{1274 651}
+  [Position]	(UPPERLEFT)	{24 22}
+  [Close]	{yes}
+[end]

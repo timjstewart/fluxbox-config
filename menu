@@ -1,0 +1,162 @@
+[begin] (Applications)
+	[submenu] (Development)
+		[exec] (MonoDevelop) {monodevelop} </usr/share/icons/hicolor/32x32/apps/monodevelop.png>
+		[exec] (Eclipse) {eclipse} </usr/share/icons/hicolor/32x32/apps/eclipse.png>
+		[exec] (JConsole) {jconsole}
+    [separator]
+		[exec] (Python) {Terminal -e python -T "Python REPL"}
+		[exec] (Ruby) {Terminal -e irb -T "Ruby REPL"}
+		[exec] (Haskell) {Terminal -e ghci -T "Haskell REPL"}
+		[exec] (Clojure) {Terminal -e clojure -T "Clojure REPL"}
+	[end]
+	[submenu] (Editors)
+		[exec] (Emacs) {Terminal -e emacs} </usr/share/icons/hicolor/32x32/apps/emacs.png>
+		[exec] (GVim) {gvim} </usr/share/pixmaps/gvim.png>
+		[exec] (Vim) {Terminal -e vim -T vim}
+	[end]
+	[submenu] (Internet)
+		[exec] (Chromium) {chromium} </usr/share/icons/hicolor/32x32/apps/chromium.png>
+		[exec] (FireFox) {firefox}
+    [separator]
+		[exec] (Empathy) {empathy}
+		[exec] (Irssi) {Terminal -e irssi}
+	[end]
+	[submenu] (Shells)
+		[exec] (Terminal) {Terminal} </usr/share/icons/hicolor/48x48/apps/Terminal.png>
+		[exec] (MC) {Terminal -e mc}
+		[exec] (Terminator) {terminator}
+	[end]
+	[submenu] (Science)
+		[exec] (R Console) {Terminal -e R}
+		[exec] (bc) {Terminal -e bc}
+		[exec] (dc) {Terminal -e dc}
+	[end]
+	[submenu] (Office)
+		[exec] (LibreOffice) {libreoffice}
+		[exec] (Dictionary) {xfce4-dict}
+	[end]
+	[submenu] (Graphics)
+		[exec] (GNU Image Manipulation Program) {gimp-2.8}
+		[exec] (Inkscape) {inkscape}
+		[exec] (Ristretto Image Viewer) {ristretto}
+	[end]
+	[submenu] (Multimedia)
+		[exec] (ALSA mixer) {Terminal -e alsamixer}
+		[exec] (Banshee Media Player) {banshee --redirect-log}
+		[exec] (Brasero) {brasero}
+		[exec] (Cheese) {cheese}
+		[exec] (HDSPConf) {hdspconf}
+		[exec] (HDSPMixer) {hdspmixer}
+		[exec] (Mixer) {xfce4-mixer}
+		[exec] (PulseAudio Volume Control) {pavucontrol}
+		[exec] (Xfburn) {xfburn}
+	[end]
+	[submenu] (System)
+		[submenu] (Settings)
+			[submenu] (GNOME)
+				[exec] (Adobe Flash Player) {flash-player-properties}
+				[exec] (Background) {gnome-control-center background}
+				[exec] (Bluetooth) {gnome-control-center bluetooth}
+				[exec] (Brightness and Lock) {gnome-control-center screen}
+				[exec] (Color) {gnome-control-center color}
+				[exec] (Date and Time) {gnome-control-center datetime}
+				[exec] (Details) {gnome-control-center info}
+				[exec] (Displays) {gnome-control-center display}
+				[exec] (Guake Preferences) {guake-prefs}
+				[exec] (Keyboard) {gnome-control-center keyboard}
+				[exec] (Messaging and VoIP Accounts) {empathy-accounts}
+				[exec] (Mouse and Touchpad) {gnome-control-center mouse}
+				[exec] (Network) {gnome-control-center network}
+				[exec] (Network Connections) {nm-connection-editor}
+				[exec] (Online Accounts) {gnome-control-center online-accounts}
+				[exec] (Power) {gnome-control-center power}
+				[exec] (Printers) {gnome-control-center printers}
+				[exec] (Region and Language) {gnome-control-center region}
+				[exec] (Sound) {gnome-control-center sound}
+				[exec] (Universal Access) {gnome-control-center universal-access}
+				[exec] (Wacom Graphics Tablet) {gnome-control-center wacom}
+			[end]
+			[submenu] (Xfce)
+				[exec] (Notifications) {xfce4-notifyd-config}
+				[exec] (Orage preferences) {orage -p}
+				[exec] (Screensaver) {xscreensaver-demo}
+				[exec] (Settings Manager) {xfce4-settings-manager}
+			[end]
+			[exec] (Accessibility) {xfce4-accessibility-settings}
+			[exec] (Appearance) {xfce4-appearance-settings}
+			[exec] (Desktop) {xfdesktop-settings}
+			[exec] (Display) {xfce4-display-settings}
+			[exec] (File Manager) {thunar-settings}
+			[exec] (Keyboard) {xfce4-keyboard-settings}
+			[exec] (MIME Type Editor) {xfce4-mime-settings}
+			[exec] (Mouse and Touchpad) {xfce4-mouse-settings}
+			[exec] (Panel) {xfce4-panel --preferences}
+			[exec] (Power Manager) {xfce4-power-manager-settings}
+			[exec] (Preferred Applications) {exo-preferred-applications}
+			[exec] (Removable Drives and Media) {thunar-volman-settings}
+			[exec] (Session and Startup) {xfce4-session-settings}
+			[exec] (Settings Editor) {xfce4-settings-editor}
+			[exec] (User Accounts) {gnome-control-center user-accounts}
+			[exec] (Window Manager) {xfwm4-settings}
+			[exec] (Window Manager Tweaks) {xfwm4-tweaks-settings}
+			[exec] (Workspaces) {xfwm4-workspace-settings}
+		[end]
+		[exec] (Htop) {Terminal -e htop}
+		[exec] (Top) {Terminal -e top}
+		[exec] (Oracle VM VirtualBox) {VirtualBox}
+		[exec] (Avahi Zeroconf Browser) {avahi-discover}
+		[exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
+		[exec] (dconf Editor) {dconf-editor}
+		[exec] (Disk Usage Analyzer) {baobab}
+		[exec] (KeePassX) {keepassx}
+		[exec] (Log File Viewer) {gnome-system-log}
+		[exec] (Log Out) {xfce4-session-logout}
+		[exec] (pstree) {Terminal -e pstree}
+		[exec] (pstree) {Terminal -e pstree.x11}
+		[exec] (Sensor Viewer) {xfce4-sensors}
+		[exec] (System Settings) {gnome-control-center --overview}
+		[exec] (Task Manager) {xfce4-taskmanager}
+	[end]
+	[submenu] (Utilities)
+		[exec] (7-Zip FM) {7zFM}
+		[exec] (About Xfce) {xfce4-about}
+		[exec] (Activate ScreenSaver [Next]) {xscreensaver-command -next}
+		[exec] (Activate ScreenSaver [Previous]) {xscreensaver-command -prev}
+		[exec] (Activate ScreenSaver [Random]) {xscreensaver-command -activate}
+		[exec] (Advanced Settings) {gnome-tweak-tool}
+		[exec] (Application Finder) {xfce4-appfinder}
+		[exec] (Caribou) {caribou}
+		[exec] (Character Map) {gucharmap}
+		[exec] (Clipman) {xfce4-clipman}
+		[exec] (Cream) {cream}
+		[exec] (Demo Screen Hacks) {xscreensaver-command -demo}
+		[exec] (Disable XScreenSaver) {xscreensaver-command -exit}
+		[exec] (Enable XScreenSaver) {xscreensaver}
+		[exec] (File Manager) {exo-open --launch FileManager}
+		[exec] (Files) {nautilus}
+		[exec] (Help) {yelp}
+		[exec] (Info) {Terminal -e info}
+		[exec] (Notes) {xfce4-notes}
+		[exec] (Reinitialize XScreenSaver) {xscreensaver-command -restart}
+		[exec] (Run Program...) {xfce4-appfinder --collapsed}
+		[exec] (ScreenSaver Preferences) {xscreensaver-command -prefs}
+		[exec] (Screenshot) {xfce4-screenshooter}
+		[exec] (Screenshot) {gnome-screenshot --interactive}
+		[exec] (Search for Files...) {gnome-search-tool}
+		[exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
+		[exec] (Xarchiver) {xarchiver}
+	[end]
+	[separator]
+	[submenu] (FluxBox)
+		[workspaces] (Workspaces)
+		[submenu] (Styles)
+			[stylesdir] (/usr/share/fluxbox/styles)
+			[stylesdir] (~/.fluxbox/styles)
+		[end]
+		[config] (Configure)
+		[reconfig] (Reconfig)
+		[restart] (Restart)
+		[separator]
+		[exit] (Exit)
+	[end]
+[end]
