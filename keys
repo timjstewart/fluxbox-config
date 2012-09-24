@@ -69,6 +69,9 @@ Mod1 F2 :Exec fbrun
 174 :Exec amixer sset Master,0 1-
 160 :Exec amixer sset Master,0 toggle
 
+232 :exec xbacklight - 20
+233 :exec xbacklight + 20
+
 # current window commands
 Mod1 F4 :Close
 Mod1 F5 :Kill
@@ -137,3 +140,8 @@ Control Mod4 F11 :TakeToWorkspace 11
 Control Mod4 F12 :TakeToWorkspace 12
 
 Mod4 t :ToggleDecor
+Mod4 l :Exec xlock
+Mod4 c :Exec chromium
+Mod4 i :Exec Terminal -e irssi -T IRC
+
+

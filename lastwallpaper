@@ -1,1 +1,2 @@
-$aspect fbsetroot|/home/tim/Wallpapers/lambda.jpg|style|:0.0
+$aspect $full|/home/tim/.fluxbox/wallpapers/lambda.jpg|style|:1.0
+$full $full|/home/tim/.fluxbox/wallpapers/lambda.jpg||:0.0
